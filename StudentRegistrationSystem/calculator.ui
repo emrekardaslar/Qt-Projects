@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Calculator</class>
+ <widget class="QDialog" name="Calculator">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>373</width>
+    <height>486</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout_2">
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout">
+     <item>
+      <widget class="QLabel" name="courseLbl">
+       <property name="text">
+        <string>Course: </string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QComboBox" name="courseBox"/>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout_8">
+     <item>
+      <widget class="QLabel" name="percenLbl">
+       <property name="text">
+        <string>Percentages: (Labs,Quizzes,Midterm,Final): </string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="lhPer"/>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="qzPer"/>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="mtPer"/>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="finPer"/>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout_2">
+     <item>
+      <widget class="QLabel" name="quizLabel">
+       <property name="text">
+        <string>Number of Quizzes:</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QComboBox" name="numOfQuizBox">
+       <item>
+        <property name="text">
+         <string>1</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>2</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>3</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>4</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>5</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>6</string>
+        </property>
+       </item>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout_3">
+     <item>
+      <widget class="QLabel" name="hwLabel">
+       <property name="text">
+        <string>Number of Labs/HWs:</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QComboBox" name="numOfHwBox">
+       <item>
+        <property name="text">
+         <string>1</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>2</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>3</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>4</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>5</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>6</string>
+        </property>
+       </item>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout_10">
+       <item>
+        <widget class="QLabel" name="qzLbl">
+         <property name="text">
+          <string>Quizzes: </string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout_9">
+         <item>
+          <widget class="QLineEdit" name="qzLine"/>
+         </item>
+         <item>
+          <widget class="QLineEdit" name="qzLine2"/>
+         </item>
+         <item>
+          <widget class="QLineEdit" name="qzLine3"/>
+         </item>
+         <item>
+          <widget class="QLineEdit" name="qzLine4"/>
+         </item>
+         <item>
+          <widget class="QLineEdit" name="qzLine5"/>
+         </item>
+         <item>
+          <widget class="QLineEdit" name="qzLine6"/>
+         </item>
+        </layout>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout_11">
+       <item>
+        <widget class="QLabel" name="lhLbl">
+         <property name="text">
+          <string>Labs/HWs:</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLineEdit" name="lhLine"/>
+       </item>
+       <item>
+        <widget class="QLineEdit" name="lhLine2"/>
+       </item>
+       <item>
+        <widget class="QLineEdit" name="lhLine3"/>
+       </item>
+       <item>
+        <widget class="QLineEdit" name="lhLine4"/>
+       </item>
+       <item>
+        <widget class="QLineEdit" name="lhLine5"/>
+       </item>
+       <item>
+        <widget class="QLineEdit" name="lhLine6"/>
+       </item>
+      </layout>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout_4">
+     <item>
+      <widget class="QLabel" name="label_3">
+       <property name="text">
+        <string>Midterm: </string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <spacer name="horizontalSpacer_3">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>40</width>
+         <height>20</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="mtLine"/>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout_5">
+     <item>
+      <widget class="QLabel" name="label_4">
+       <property name="text">
+        <string>Final:</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <spacer name="horizontalSpacer_2">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>40</width>
+         <height>20</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="finalLine"/>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout_6">
+     <item>
+      <widget class="QLabel" name="label_8">
+       <property name="text">
+        <string>Total: </string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <spacer name="horizontalSpacer">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>40</width>
+         <height>20</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="total"/>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout_7">
+     <item>
+      <widget class="QPushButton" name="saveBtn">
+       <property name="text">
+        <string>Save</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="loadBtn">
+       <property name="text">
+        <string>Load</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+  </layout>
+  <zorder></zorder>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
